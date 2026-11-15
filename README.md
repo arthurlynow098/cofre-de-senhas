@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/banner.svg" alt="Cofre de Senhas" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Cofre de Senhas" width="100%"></p>
 
 <p align="center">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-A855F7?style=for-the-badge&logo=python&logoColor=white">
@@ -16,7 +16,7 @@
 
 <a id="sobre"></a>
 
-<p><img src="assets/secao-01.svg" alt="Sobre o projeto" width="100%"></p>
+<p><img src="assets/secao-01.png" alt="Sobre o projeto" width="100%"></p>
 
 Eu sempre recomendava gerenciador de senha para todo mundo, mas não sabia explicar **por que** era seguro guardar tudo num lugar só. Então construí um.
 
@@ -24,7 +24,7 @@ O Cofre de Senhas roda no terminal e guarda tudo em um único arquivo JSON cript
 
 <a id="como-funciona"></a>
 
-<p><img src="assets/secao-02.svg" alt="Como funciona" width="100%"></p>
+<p><img src="assets/secao-02.png" alt="Como funciona" width="100%"></p>
 
 ```mermaid
 flowchart LR
@@ -49,7 +49,7 @@ Uma coisa que eu achei importante deixar clara no próprio programa é que **nã
 
 <a id="rodando"></a>
 
-<p><img src="assets/secao-03.svg" alt="Rodando na sua máquina" width="100%"></p>
+<p><img src="assets/secao-03.png" alt="Rodando na sua máquina" width="100%"></p>
 
 ```bash
 git clone https://github.com/arthurlynow098/cofre-de-senhas.git
@@ -76,7 +76,7 @@ python -m pytest -q
 
 Os testes conferem, entre outras coisas, que nenhum nome ou senha aparece em texto puro no arquivo e que alterar um único caractere faz o cofre recusar a abertura.
 
-<p><img src="assets/secao-04.svg" alt="Exemplo de saída" width="100%"></p>
+<p><img src="assets/secao-04.png" alt="Exemplo de saída" width="100%"></p>
 
 É assim que o arquivo fica no disco depois de salvar uma entrada. Repare que nem o nome "github" aparece.
 
@@ -96,7 +96,7 @@ Os testes conferem, entre outras coisas, que nenhum nome ou senha aparece em tex
 
 <a id="aprendi"></a>
 
-<p><img src="assets/secao-05.svg" alt="O que eu aprendi" width="100%"></p>
+<p><img src="assets/secao-05.png" alt="O que eu aprendi" width="100%"></p>
 
 - A diferença entre derivar uma chave (KDF) e simplesmente fazer hash da senha
 - O que é criptografia autenticada e por que só criptografar não basta
@@ -112,7 +112,7 @@ Próximos passos
 
 <a id="estudos"></a>
 
-<p><img src="assets/secao-06.svg" alt="Estudei por aqui" width="100%"></p>
+<p><img src="assets/secao-06.png" alt="Estudei por aqui" width="100%"></p>
 
 Segui essas aulas e materiais para entender e aplicar tudo que está aqui.
 
