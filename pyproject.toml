@@ -1,0 +1,15 @@
+[project]
+name = "cofre-de-senhas"
+version = "1.0.0"
+description = "Gerenciador de senhas no terminal com scrypt e Fernet"
+requires-python = ">=3.10"
+authors = [{ name = "Arthur Entsev" }]
+license = { text = "MIT" }
+dependencies = ["cryptography>=42"]
+
+[project.scripts]
+cofre = "cofre.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
